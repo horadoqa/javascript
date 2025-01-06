@@ -13,7 +13,7 @@ let data = fs.readFileSync('produtos.json', 'utf8');
 let produtos = JSON.parse(data);
 
 // Definir o nome do novo produto a ser adicionado
-let produtoAdicionar = { nome: "Açúcar", preco: 5 };
+let produtoAdicionar = { id: 8, nome: "Açúcar", preco: 5, quantidade: 5,  descricao: "Açúcar refinado 1kg"};
 
 // Adicionar o novo produto ao array
 produtos.push(produtoAdicionar);

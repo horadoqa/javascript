@@ -1,0 +1,34 @@
+[
+  {
+    "nome": "Arroz",
+    "preco": 9
+  },
+  {
+    "nome": "Feijão",
+    "preco": 8
+  },
+  {
+    "nome": "Suco",
+    "preco": 15
+  },
+  {
+    "nome": "Refrigerante",
+    "preco": 10
+  },
+  {
+    "nome": "Macarrão",
+    "preco": 5
+  },
+  {
+    "nome": "ovos",
+    "preco": 25
+  },
+  {
+    "nome": "Óleo",
+    "preco": 9
+  },
+  {
+    "nome": "Açúcar",
+    "preco": 5
+  }
+]

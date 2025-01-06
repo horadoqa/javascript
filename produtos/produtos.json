@@ -1,34 +1,51 @@
 [
   {
+    "id": 1,
     "nome": "Arroz",
-    "preco": 9
+    "preco": 9,
+    "quantidade": 1,
+    "descricao": "Arroz branco, 5kg."
   },
   {
+    "id": 2,
     "nome": "Feijão",
-    "preco": 8
+    "preco": 8,
+    "quantidade": 2,
+    "descricao": "Feijão carioca, pacote de 1kg."
   },
   {
+    "id": 3,
     "nome": "Suco",
-    "preco": 15
+    "preco": 15,
+    "quantidade": 5,
+    "descricao": "Suco de laranja natural, 1 litro."
   },
   {
+    "id": 5,
     "nome": "Refrigerante",
-    "preco": 10
+    "preco": 10,
+    "quantidade": 3,
+    "descricao": "Refrigerante de cola, 2 litros."
   },
   {
+    "id": 6,
     "nome": "Macarrão",
-    "preco": 5
+    "preco": 5,
+    "quantidade": 10,
+    "descricao": "Macarrão espaguete, 500g."
   },
   {
-    "nome": "ovos",
-    "preco": 25
+    "id": 7,
+    "nome": "Ovos",
+    "preco": 10,
+    "quantidade": 1,
+    "descricao": "Ovos caipiras, dúzia."
   },
   {
-    "nome": "Óleo",
-    "preco": 9
-  },
-  {
+    "id": 8,
     "nome": "Açúcar",
-    "preco": 5
+    "preco": 5,
+    "quantidade": 5,
+    "descricao": "Açúcar refinado 1kg"
   }
 ]

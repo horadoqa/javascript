@@ -12,17 +12,17 @@ let data = fs.readFileSync('produtos.json', 'utf8');
 // Convertendo o JSON para objeto JavaScript
 let produtos = JSON.parse(data);
 
-// Definir o nome do produto a ser removido
-let produtoRemover = "Leite";
+// Definir o ID do produto a ser removido
+let idProdutoRemover = 4;  // Exemplo: removendo o produto com ID 4
 
-// Remover o produto "Leite"
-let index = produtos.findIndex(produto => produto.nome === produtoRemover);
+// Remover o produto pelo ID
+let index = produtos.findIndex(produto => produto.id === idProdutoRemover);
 if (index !== -1) {
     produtos.splice(index, 1);
     // Confirmar que o produto foi removido com sucesso
-    console.log(`O item "${produtoRemover}" foi removido com sucesso!`);
+    console.log(`O item com ID ${idProdutoRemover} foi removido com sucesso!`);
 } else {
-    console.log(`O item "${produtoRemover}" não foi encontrado.`);
+    console.log(`O item com ID ${idProdutoRemover} não foi encontrado.`);
 }
 
 // Salvar as alterações de volta no arquivo JSON

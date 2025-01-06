@@ -4,15 +4,17 @@
 
 const fs = require('fs');
 
+// Array de produtos com ID e quantidade
+// Array de produtos com ID, quantidade e descrição
 let produtos = [
-    { nome: 'Arroz', preco: 9 },
-    { nome: 'Feijão', preco: 8 },
-    { nome: 'Suco', preco: 15 },
-    { nome: 'Leite', preco: 6 },
-    { nome: 'Refrigerante', preco: 10 },
-    { nome: 'Macarrão', preco: 5 },
-    { nome: 'ovos', preco: 25 }
-  ]
+  { id: 1, nome: 'Arroz', preco: 9, quantidade: 1, descricao: 'Arroz branco, 5kg.' },
+  { id: 2, nome: 'Feijão', preco: 8, quantidade: 2, descricao: 'Feijão carioca, pacote de 1kg.' },
+  { id: 3, nome: 'Suco', preco: 15, quantidade: 5, descricao: 'Suco de laranja natural, 1 litro.' },
+  { id: 4, nome: 'Leite', preco: 6, quantidade: 5, descricao: 'Leite integral, 1 litro.' },
+  { id: 5, nome: 'Refrigerante', preco: 10, quantidade: 3, descricao: 'Refrigerante de cola, 2 litros.' },
+  { id: 6, nome: 'Macarrão', preco: 5, quantidade: 10, descricao: 'Macarrão espaguete, 500g.' },
+  { id: 7, nome: 'Ovos', preco: 10, quantidade: 1, descricao: 'Ovos caipiras, dúzia.' }
+];
 
 // Convertendo o array de produtos para JSON
 // O "null, 2" ajuda a formatar o JSON com indentação para ficar legível.

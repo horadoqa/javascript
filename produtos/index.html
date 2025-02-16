@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerar Código de Barras</title>
+  <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Adicionando jQuery para facilitar a manipulação AJAX -->
+</head>
+<body>
+
+  <h1>Gerar Código de Barras para Produto</h1>
+
+  <input type="number" id="produtoId" placeholder="Digite o ID do produto" />
+  <button onclick="buscarProduto()">Gerar Código de Barras</button>
+
+  <div id="produtos-container"></div>
+
+  <script src="barcode.js"></script>
+
+</body>
+</html>

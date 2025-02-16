@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Código de Barras com JavaScript</title>
+  <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+</head>
+<body>
+
+  <h1>Código de Barras Gerado</h1>
+  <svg id="barcode"></svg>
+
+  <script>
+    JsBarcode("#barcode", "1234567890", {
+  format: "CODE128",
+  lineColor: "#0aa",
+  width: 2,
+  height: 100,
+  displayValue: true
+});
+  </script>
+  
+</body>
+</html>
